@@ -1,3 +1,10 @@
+/**
+ * Arquivo: server.js
+ * Author: Luan Fauth
+ * Description: Arquivo principal e responsável por executar a aplicação.
+ * Data: 27/02/2018
+ */
+
 //#region Declaração das variaveis do server
 var express = require("express");
 var bodyParser = require("body-parser");
@@ -49,7 +56,7 @@ app.post("/", function (req, res) {
                     latitude: element.lat,
                     longitude: element.lon
                 });
-                
+
             resultado.push(
                 {
                     distancia: distancia,
