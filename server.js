@@ -2,7 +2,7 @@
  * Arquivo: server.js
  * Author: Luan Fauth
  * Description: Arquivo principal e responsável por executar a aplicação.
- * Data: 27/02/2018
+ * Data: 02/03/2018
  */
 
 // Declaração das variaveis do server
@@ -31,3 +31,5 @@ app.post("/", function (req, res) {
 app.listen(porta, function () {
     console.log("Servidor está rodando na porta " + porta + ".");
 });
+
+module.exports = app;

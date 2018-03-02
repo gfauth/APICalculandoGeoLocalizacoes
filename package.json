@@ -3,14 +3,25 @@
   "version": "1.0.0",
   "description": "API que realizará calculos de proximidade de pontos geograficos (latitude e longitude) para um ponto de referência. Retornará o resultado ordenando os pontos por proximidade do ponto de origem.",
   "main": "server.js",
-  "scripts": {
-    "test": "test"
-  },
   "author": "Luan Fauth",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "geolib": "^2.0.24"
+    "geolib": "^2.0.24",
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gfauth/APICalculandoGeoLocalizacoes"
   }
 }
