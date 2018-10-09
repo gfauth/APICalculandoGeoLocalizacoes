@@ -9,12 +9,12 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "geolib": "^2.0.24",
-    "npm": "^5.7.1"
+    "npm": "^6.4.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "chai-http": "^2.0.1",
-    "mocha": "^2.4.5"
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "start": "node server.js",
